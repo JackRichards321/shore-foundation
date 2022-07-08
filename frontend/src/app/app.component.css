@@ -1,0 +1,32 @@
+#navLogo {
+    width: 10em;
+}
+
+#left {
+    margin-right: auto;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 98%;
+    height: 10vw;
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+router-outlet {
+    width: 100%;
+}
+
+#footer {
+    background-color: #1f1f1f;
+    height: 200px;
+    width: 100%;
+}
