@@ -12,8 +12,13 @@ import { CpuComponent } from './cpu/cpu.component';
 import { CloudComponent } from './cloud/cloud.component';
 import { PowerComponent } from './power/power.component';
 import { VolunteerComponent } from './volunteer/volunteer.component';
-import { ProcessComponent } from './process/process.component';
 import { ContactComponent } from './contact/contact.component';
+import { ReusingComponent } from './reusing/reusing.component';
+import { RecyclingComponent } from './recycling/recycling.component';
+import { ConnectingComponent } from './connecting/connecting.component';
+import { TechrequestComponent } from './techrequest/techrequest.component';
+import { NewsComponent } from './news/news.component';
+import { FaqComponent } from './faq/faq.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -21,13 +26,18 @@ const routes: Routes = [
   { path: 'mission', component: MissionComponent },
   { path: 'team', component: TeamComponent },
   { path: 'initiatives', component: InitiativesComponent },
+  { path: 'reusing', component: ReusingComponent },
+  { path: 'recycling', component: RecyclingComponent },
+  { path: 'connecting', component: ConnectingComponent },
+  { path: 'techrequest', component: TechrequestComponent },
   { path: 'support', component: SupportComponent },
   { path: 'cpu', component: CpuComponent },
   { path: 'cloud', component: CloudComponent },
   { path: 'power', component: PowerComponent },
   { path: 'volunteer', component: VolunteerComponent },
-  { path: 'process', component: ProcessComponent },
+  { path: 'news', component: NewsComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'faq', component: FaqComponent },
   { path: 'donate', component: DonateComponent },
 ];
 

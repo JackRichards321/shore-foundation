@@ -4,24 +4,54 @@
     align-items: center;
 }
 
-#newBanner {
+#bannerDiv {
     display: flex;
+    font-family: "lucida sans typewriter" !important;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
 }
 
 #text {
-    width: 25vw;
-    margin-left: 100px;
+    width: 33vw;
+    margin-left: 3vw;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
 }
 
 #banner {
-    width: 75vw;
-    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
-    
+    width: 68.5vw;
+    clip-path: polygon(calc(0% + 15vw) 0, 100% 0, 100% 100%, 0% 100%);
+    object-fit: cover;
+    margin-left: -6vw;
 }
 
-h2, h1 {
-    font-family: "lucida sans typewriter" !important;
+#stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 5em;
+    font-family: sans-serif;
 }
+
+#impact {
+    font-family: sans-serif;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    text-align: center;
+}
+
+
+
+
+
 
 
 

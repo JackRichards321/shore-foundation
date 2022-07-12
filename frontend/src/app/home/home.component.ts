@@ -19,6 +19,7 @@ export class HomeComponent implements OnInit {
     })
     
     writer
+      .rest(1500)
       .type('Bridging the digital divide and improving lives through access to technology.')
       .rest(500)
       .start()

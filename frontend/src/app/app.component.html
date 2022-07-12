@@ -2,14 +2,57 @@
   <a id="left" routerLink="">
     <img id="navLogo" src="/assets/logo.png" alt="The Shore Foundation logo" />
   </a>
-  <nav>
-    <a routerLink="">Home</a>
-    <a routerLink="/about">About</a>
-    <a routerLink="/support">Support</a>
-    <a routerLink="/process">Impact</a>
-    <a routerLink="/contact">Contact</a>
-    <a routerLink="/donate" id="donateLink">Donate</a>
-  </nav>
+  <ul id="navList">
+    <li>
+      <a routerLink="">Home</a>
+    </li>
+
+    <li>
+      <a routerLink="/about">About</a>
+
+      <ul class="subMenu">
+        <li><a routerLink="/mission">Our Mission and Impact</a></li>
+        <li><a routerLink="/team">Our Team</a></li>
+      </ul>
+    </li>
+
+    <li>
+      Programs
+
+      <ul class="subMenu">
+        <li><a routerLink="/reusing">Reusing</a></li>
+        <li><a routerLink="/recycling">Recycling</a></li>
+        <li><a routerLink="/connecting">Connecting</a></li>
+      </ul>
+    </li>
+
+    <li>
+      Support
+
+      <ul class="subMenu">
+        <li><a routerLink="/cpu">Corporate Support: CPU</a></li>
+        <li><a routerLink="/cloud">In-kind Donors: Cloud Support</a></li>
+        <li><a routerLink="/power">Individual Giving: Power Generators</a></li>
+        <li><a routerLink="/volunteer">Volunteer</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <a routerLink="/news">News</a>
+    </li>
+
+    <li>
+
+      <a routerLink="/contact">Contact</a>
+
+      <ul class="subMenu">
+        <li><a routerLink="/faq">FAQ</a></li>
+      </ul>
+    </li>
+    <li>
+      <a routerLink="/donate" id="donateLink">Donate</a>
+    </li>
+  </ul>
 </div>
 
 <router-outlet></router-outlet>

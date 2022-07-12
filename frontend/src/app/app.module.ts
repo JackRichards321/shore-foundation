@@ -15,8 +15,13 @@ import { CpuComponent } from './cpu/cpu.component';
 import { CloudComponent } from './cloud/cloud.component';
 import { PowerComponent } from './power/power.component';
 import { VolunteerComponent } from './volunteer/volunteer.component';
-import { ProcessComponent } from './process/process.component';
 import { ContactComponent } from './contact/contact.component';
+import { ReusingComponent } from './reusing/reusing.component';
+import { RecyclingComponent } from './recycling/recycling.component';
+import { ConnectingComponent } from './connecting/connecting.component';
+import { TechrequestComponent } from './techrequest/techrequest.component';
+import { NewsComponent } from './news/news.component';
+import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -32,8 +37,13 @@ import { ContactComponent } from './contact/contact.component';
     CloudComponent,
     PowerComponent,
     VolunteerComponent,
-    ProcessComponent,
-    ContactComponent
+    ContactComponent,
+    ReusingComponent,
+    RecyclingComponent,
+    ConnectingComponent,
+    TechrequestComponent,
+    NewsComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,

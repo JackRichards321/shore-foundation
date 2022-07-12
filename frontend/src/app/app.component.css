@@ -19,10 +19,19 @@
     background-color: #1f1f1f;
 }
 
-a {
-    text-decoration: none;
+#navList {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
     color: lightgray;
     margin-left: 10px;
+    z-index: 20;
+}
+
+li > a {
+    text-decoration: none;
 }
 
 router-outlet {
@@ -33,4 +42,27 @@ router-outlet {
     background-color: #1f1f1f;
     height: 200px;
     width: 100%;
+}
+
+.subMenu {
+    display: none;
+    position: absolute;
+}
+
+.subMenu > li {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    border-top: 2px solid lightgray;
+    background-color: #1f1f1f;
+    line-height: 32px;
+}
+
+li:hover .subMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
 }
