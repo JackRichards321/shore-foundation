@@ -4,9 +4,26 @@
     align-items: center;
 }
 
-#banner {
-    width: 98vw;
+#newBanner {
+    display: flex;
 }
+
+#text {
+    width: 25vw;
+    margin-left: 100px;
+}
+
+#banner {
+    width: 75vw;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+    
+}
+
+h2, h1 {
+    font-family: "lucida sans typewriter" !important;
+}
+
+
 
 #blurb {
     display: flex;
