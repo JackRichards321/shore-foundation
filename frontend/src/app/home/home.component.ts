@@ -15,7 +15,9 @@ export class HomeComponent implements OnInit {
     const target = document.querySelector('.tw');
     const writer = new Typewriter(target, {
       loop: false,
-      typeColor: 'lightgray'
+      typeColor: 'lightgray',
+      typeSpeed: 60,
+      cursorColor: 'lightgray',
     })
     
     writer

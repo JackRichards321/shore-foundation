@@ -1,3 +1,8 @@
+* {
+    text-decoration: none;
+
+}
+
 #home {
     display: flex;
     flex-direction: column;
@@ -6,14 +11,16 @@
 
 #bannerDiv {
     display: flex;
-    font-family: "lucida sans typewriter" !important;
-    border-top: 2px solid orange;
-    border-bottom: 2px solid orange;
+    border-top: 8px solid orange;
+    border-bottom: 8px solid orange;
+    border-bottom-style: ridge;
+    border-top-style: ridge;
 }
 
 #text {
     width: 33vw;
     margin-left: 3vw;
+    font-family: 'Courier';
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
@@ -32,11 +39,7 @@
     justify-content: space-evenly;
     width: 100%;
     margin-top: 5em;
-    font-family: sans-serif;
-}
-
-#impact {
-    font-family: sans-serif;
+    font-family: 'trebuchet MS', Arial, Helvetica;
 }
 
 .stat {
@@ -48,12 +51,18 @@
     text-align: center;
 }
 
+a {
+    font-family: 'trebuchet MS', Arial, Helvetica;
+}
+
+a:visited {
+    color: lightgray;
+}
 
 
 
 
-
-
+/* 
 
 #blurb {
     display: flex;
@@ -91,4 +100,4 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
