@@ -39,13 +39,19 @@ router-outlet {
 }
 
 #navList > li {
-    padding: 0 5px;
+    padding: 10px;
 }
 
 li > a {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
+}
+
+#navList > li:hover {
+    background-color: #000a3a;
+    border-radius: 35px;
+    box-shadow: 5px 5px #000 inset
 }
 
 .subMenu {
@@ -56,7 +62,30 @@ li > a {
 li:hover .subMenu {
     display: flex;
     flex-direction: column;
+    background-color: transparent;
+    padding: 15px 15px 7px 7px;
+    line-height: 28px;
+    width: 230px;
+    background-color: white;
 }
+
+.subMenu > li > a:hover {
+    background-size: 100%;
+    width: auto;
+    height: 32px;
+    background-color: blue;
+    border-bottom: 2px solid white;
+}
+
+.subMenu > li > a {
+    background-size: 0px;
+    width: 200px;
+    height: 32px;
+    background-color: #000a4a;
+    border-bottom: 2px solid white;
+}
+
+
 
 ul {
     float: right;
