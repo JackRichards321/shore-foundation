@@ -1,0 +1,32 @@
+#all {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+#contact {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 2000px;
+}
+#top {
+    width: 60%;
+    border-bottom: 1px solid gray;
+}
+#left, #right {
+    width: 50%;
+}
+#name {
+    display: flex;
+
+}
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
