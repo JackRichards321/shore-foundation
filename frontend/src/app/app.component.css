@@ -28,12 +28,20 @@ router-outlet {
     background-color: #010619;
     padding: 10px 0px;
     z-index: 100;
+    letter-spacing: 1px;
+}
+
+#left > h2 {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-family: shark;
 }
 
 #navList {
     display: flex;
     justify-content: center;
     margin-right: 30px;
+    font-family: Aero;
 }
 
 #navList > li {
@@ -42,7 +50,6 @@ router-outlet {
 
 li > a {
     text-decoration: none;
-    text-transform: uppercase;
     color: white;
 }
 
