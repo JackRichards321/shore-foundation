@@ -11,9 +11,14 @@
     src: url(/assets/AeroMaticsLight.ttf)
 }
 
+@font-face {
+    font-family: kim;
+    src: url(/assets/kimberley.otf);
+}
+
 body {
-    background-color: #000a4a;
-    color: white;
+    background-color: white;
+    color: black;
     font-family: aero;
     border: none !important;
     margin: 0px !important;

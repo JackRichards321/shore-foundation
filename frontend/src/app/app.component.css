@@ -13,10 +13,11 @@ router-outlet {
     margin-left: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 42%;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 45%;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 #navbar {
@@ -25,16 +26,16 @@ router-outlet {
     justify-content: space-between;
     width: 100%;
     height: 75px;
-    background-color: #010619;
+    background-color: white;
     padding: 10px 0px;
     z-index: 100;
     letter-spacing: 1px;
 }
 
 #left > h2 {
-    font-size: 1.2em;
+    font-size: 40px;
     letter-spacing: 2px;
-    font-family: shark;
+    font-family: kim;
 }
 
 #navList {
@@ -50,7 +51,7 @@ router-outlet {
 
 li > a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 #navList > li:hover {
