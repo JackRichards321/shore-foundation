@@ -2,20 +2,20 @@
  xmlns="http://www.w3.org/2000/svg"
  xmlns:xlink="http://www.w3.org/1999/xlink"
  width="107.215px" height="178.215px">
-<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="0.81px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="0.81px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
  d="M103.404,2.404 L102.503,112.354 L103.404,2.404 Z"/>
-<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="0.81px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="0.81px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
  d="M72.404,1.404 L72.404,131.350 L72.404,1.404 Z"/>
-<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="0.81px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="0.81px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
  d="M38.404,1.404 L38.404,151.341 L38.404,1.404 Z"/>
-<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="0.81px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="0.81px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
  d="M4.404,0.405 L4.404,170.333 L4.404,0.405 Z"/>
-<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="0.81px" stroke-linecap="round" stroke-linejoin="bevel" fill="rgb(255, 255, 255)"
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="0.81px" stroke-linecap="round" stroke-linejoin="bevel" fill="rgb(0, 0, 0)"
  d="M102.404,110.358 C104.61,110.358 105.404,111.701 105.404,113.357 C105.404,115.13 104.61,116.356 102.404,116.356 C100.748,116.356 99.404,115.13 99.404,113.357 C99.404,111.701 100.748,110.358 102.404,110.358 Z"/>
-<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="0.81px" stroke-linecap="round" stroke-linejoin="bevel" fill="rgb(255, 255, 255)"
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="0.81px" stroke-linecap="round" stroke-linejoin="bevel" fill="rgb(0, 0, 0)"
  d="M4.404,170.333 C6.61,170.333 7.404,171.676 7.404,173.332 C7.404,174.988 6.61,176.331 4.404,176.331 C2.748,176.331 1.404,174.988 1.404,173.332 C1.404,171.676 2.748,170.333 4.404,170.333 Z"/>
-<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="0.81px" stroke-linecap="round" stroke-linejoin="bevel" fill="rgb(255, 255, 255)"
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="0.81px" stroke-linecap="round" stroke-linejoin="bevel" fill="rgb(0, 0, 0)"
  d="M38.404,150.342 C40.61,150.342 41.404,151.684 41.404,153.340 C41.404,154.996 40.61,156.339 38.404,156.339 C36.748,156.339 35.404,154.996 35.404,153.340 C35.404,151.684 36.748,150.342 38.404,150.342 Z"/>
-<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="0.81px" stroke-linecap="round" stroke-linejoin="bevel" fill="rgb(255, 255, 255)"
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="0.81px" stroke-linecap="round" stroke-linejoin="bevel" fill="rgb(0, 0, 0)"
  d="M72.404,132.404 C74.61,132.404 75.404,133.748 75.404,135.404 C75.404,137.61 74.61,138.405 72.404,138.405 C70.748,138.405 69.404,137.61 69.404,135.404 C69.404,133.748 70.748,132.404 72.404,132.404 Z"/>
 </svg>
