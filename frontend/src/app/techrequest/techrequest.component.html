@@ -1,4 +1,4 @@
-<div id="formDiv" >
+<div id="formDiv">
     <p>If you would like to request technology from The Shore Foundation, please fill out this form.</p>
 
     <form id="techForm" #techForm="ngForm">
@@ -7,12 +7,11 @@
         <p><b>Section 1:</b> Please use as much detail as you can.</p>
         <div class="formSection">
             <label for="orgName">Organization Name:</label>
-            <input id="orgName" type="text" value="Org. name"
-                [(ngModel)]="model.orgName" name="orgName" />
+            <input id="orgName" type="text" value="Org. name" [(ngModel)]="model.orgName" name="orgName" />
         </div>
         <div class="formSection">
             <label for="programs">Programs/services that organization provides:</label>
-            <input id="programs" type="text" value="programs/services" [(ngModel)]="model.programs" name="programs" >
+            <input id="programs" type="text" value="programs/services" [(ngModel)]="model.programs" name="programs">
         </div>
         <div class="formSection">
             <label for="location">Location:</label>
@@ -24,14 +23,32 @@
         </div>
 
         <label for="orgType">Organization Type:</label>
-        <select id="orgType" required [(ngModel)]="model.orgType" name="orgType" >
+        <select id="orgType" required [(ngModel)]="model.orgType" name="orgType">
             <option *ngFor="let type of orgTypes" [value]="type">{{ type }}</option>
         </select>
 
         <br><br>
 
-        {{ model.orgName }} has been providing {{ model.programs }} in {{ model.location }} since {{ model.date }}
-
+        <div id="liveText">
+            <div class="field">
+                <label for="orgName">
+                    {{ model.orgName }}
+                </label>
+            </div>
+            has been providing 
+            <div class="field">
+                {{ model.programs }}
+            </div>
+            in 
+            <div class="field">
+                {{ model.location }}
+            </div>
+            since 
+            <div class="field">
+                {{ model.date }}
+            </div>
+            
+        </div>
         <br><br><br>
 
         <button id="submit">Submit</button>
