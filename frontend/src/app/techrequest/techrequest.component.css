@@ -1,28 +1,60 @@
-#techRequestPage {
+#fullPage {
     width: 100%;
-    height: 100vh;
+    min-height: 200%;
     display: flex;
     flex-direction: row;
-    color: black !important;
-    text-align: start;
+    background: rgb(241, 243, 254);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(178, 200, 241, 1) 77%);
 }
 
-#leftBanner {
-    content: "";
-    background-image: url(/assets/lightbanner.jpg);
-    background-repeat: repeat;
-    width: 600px;
-    height: 80px;
-    transform: rotate(90deg) translate(260px, 260px);
+#bannerImg {
+    margin: 10px;
 }
 
-#liveText {
+#formDiv {
+    font-size: 18px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+#submit {
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 25px;
+    border: 2px solid gray;
+
+}
+
+.liveText {
     display: flex;
     gap: 2.5px;
+    font-size: 20px;
+    width: 100%;
 }
 
 .field {
     background-color: lightgray;
     padding: 0px 2px;
     min-width: 30px;
+}
+
+.formSection {
+    display: flex;
+    padding: 10px;
+    margin: 0px 20px;
+    border-bottom: 1px solid gray;
+    width: 50%;
+}
+
+.formSection label {
+    width: 200px;
+    text-align: right;
+    padding-right: 7px;
+}
+
+#computerPurpose {
+    width: 200px;
+    height: 100px;
+    margin-left: 15px;
 }

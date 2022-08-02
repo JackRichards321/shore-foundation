@@ -1,0 +1,17 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="220.25px" height="219.25px">
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="3.5px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
+ d="M152.399,35.328 L32.677,35.328 L152.399,35.328 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="3.5px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
+ d="M35.172,151.274 L35.172,31.318 L35.172,151.274 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="3.5px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
+ d="M213.258,35.328 C213.258,51.935 199.857,65.398 183.327,65.398 C166.797,65.398 153.397,51.935 153.397,35.328 C153.397,18.720 166.797,5.257 183.327,5.257 C199.857,5.257 213.258,18.720 213.258,35.328 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="3.5px" stroke-linecap="round" stroke-linejoin="bevel" fill="rgb(0, 0, 0)"
+ d="M197.295,35.328 C197.295,43.78 191.41,49.361 183.327,49.361 C175.613,49.361 169.360,43.78 169.360,35.328 C169.360,27.578 175.613,21.295 183.327,21.295 C191.41,21.295 197.295,27.578 197.295,35.328 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="3.5px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
+ d="M35.172,212.251 C18.642,212.251 5.241,198.824 5.241,182.262 C5.241,165.700 18.642,152.273 35.172,152.273 C51.702,152.273 65.102,165.700 65.102,182.262 C65.102,198.824 51.702,212.251 35.172,212.251 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="3.5px" stroke-linecap="round" stroke-linejoin="bevel" fill="rgb(0, 0, 0)"
+ d="M35.172,196.257 C27.458,196.257 21.204,189.991 21.204,182.262 C21.204,174.533 27.458,168.267 35.172,168.267 C42.886,168.267 49.139,174.533 49.139,182.262 C49.139,189.991 42.886,196.257 35.172,196.257 Z"/>
+</svg>
