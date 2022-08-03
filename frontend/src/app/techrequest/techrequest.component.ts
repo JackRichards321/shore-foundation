@@ -19,10 +19,7 @@ export class TechrequestComponent {
   groups = ['Low-income', 'Workforce readiness', 'Education', 'Faith', 'Veteran services', 'Homelessness', 'Inclusion', 'Accessibility', 'Women specifically/only', 'Men specifically/only', 'Children specifically/only'];
   skills = ['Job coaching', 'Workforce development/skill building', 'Recreation activities', 'Social skill building', 'Education', 'Training', 'Accessibility'];
 
-  model = new TechRequest('The Shore Foundation', 
-    'refurbished laptops and desktops', 'western NY', 
-    2018, "non-profit", 'provides', 'low-income households', 
-    'gain access to technology', 'help', 'hundreds', 'families', 'gain access to technology');
+  model = new TechRequest("non-profit", 'The Shore Foundation', 'providing', 'refurbished laptops and desktops', 2018, 'help', 'hundreds', 'people', 'Western NY');
 
   submitted = false;
 

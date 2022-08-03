@@ -9,72 +9,79 @@
 
 
             <p><b>Section 1:</b> Please use as much detail as you can.</p>
-            <div class="formSection">
-                <label for="orgType">Organization Type: </label>
-                <select id="orgType" required [(ngModel)]="model.orgType" name="orgType">
-                    <option *ngFor="let type of orgTypes" [value]="type">{{ type }}</option>
-                </select>
+            <div id="formSplit">
+                <div id="formLeft">
+                    <div class="formSection">
+                        <label for="orgType">Organization Type: </label>
+                        <select id="orgType" required [(ngModel)]="model.orgType" name="orgType">
+                            <option *ngFor="let type of orgTypes" [value]="type">{{ type }}</option>
+                        </select>
+                    </div>
+                    <div class="formSection">
+                        <label for="orgName">Organization Name: </label>
+                        <input id="orgName" type="text" value="Org. name" [(ngModel)]="model.orgName" name="orgName" />
+                    </div>
+                    <div class="formSection">
+                        <label for="verb">How you help others: </label>
+                        <select id="verb" required [(ngModel)]="model.verb" name="verb">
+                            <option *ngFor="let verb of verbs" [value]="verb">{{ verb }}</option>
+                        </select>
+                    </div>
+                    <div class="formSection">
+                        <label for="programs">Programs/services that organization provides: </label>
+                        <input id="programs" type="text" value="programs/services" [(ngModel)]="model.programs"
+                            name="programs">
+                    </div>
+                    <div class="formSection">
+                        <label for="date">Date of establishment: </label>
+                        <input id="date" type="text" value="date" [(ngModel)]="model.date" name="date">
+                    </div>
+                </div>
+                <div id="formRight">
+                    <div class="formSection">
+                        <label for="verbTwo">How you serve your audience: </label>
+                        <select id="verbTwo" required [(ngModel)]="model.verbTwo" name="verbTwo">
+                            <option *ngFor="let verbTwo of verbTwos" [value]="verbTwo">{{ verbTwo }}</option>
+                        </select>
+                    </div>
+                    <div class="formSection">
+                        <label for="number">How many people do you serve: </label>
+                        <select id="number" required [(ngModel)]="model.number" name="number">
+                            <option *ngFor="let number of numbers" [value]="number">{{ number }}</option>
+                        </select>
+                    </div>
+                    <div class="formSection">
+                        <label for="pluralDemographic">Your demographic: </label>
+                        <select id="pluralDemographic" required [(ngModel)]="model.pluralDemographic"
+                            name="pluralDemographic">
+                            <option *ngFor="let pluralDemographic of pluralDemographics" [value]="pluralDemographic">{{
+                                pluralDemographic }}</option>
+                        </select>
+                    </div>
+                    <div class="formSection">
+                        <label for="location">Location: </label>
+                        <input id="location" type="text" value="geographic area" [(ngModel)]="model.location"
+                            name="location">
+                    </div>
+                </div>
             </div>
-            <div class="formSection">
-                <label for="orgName">Organization Name: </label>
-                <input id="orgName" type="text" value="Org. name" [(ngModel)]="model.orgName" name="orgName" />
-            </div>
-            <div class="formSection">
-                <label for="verb">How you help others: </label>
-                <select id="verb" required [(ngModel)]="model.verb" name="verb">
-                    <option *ngFor="let verb of verbs" [value]="verb">{{ verb }}</option>
-                </select>
-            </div>
-            <div class="formSection">
-                <label for="programs">Programs/services that organization provides: </label>
-                <input id="programs" type="text" value="programs/services" [(ngModel)]="model.programs" name="programs">
-            </div>
-            <div class="formSection">
-                <label for="date">Date of establishment: </label>
-                <input id="date" type="text" value="date" [(ngModel)]="model.date" name="date">
-            </div>
-
-            <div class="formSection">
-                <label for="verbTwo">How you serve your audience: </label>
-                <select id="verbTwo" required [(ngModel)]="model.verbTwo" name="verbTwo">
-                    <option *ngFor="let verbTwo of verbTwos" [value]="verbTwo">{{ verbTwo }}</option>
-                </select>
-            </div>
-            <div class="formSection">
-                <label for="number">How many people do you serve: </label>
-                <select id="number" required [(ngModel)]="model.number" name="number">
-                    <option *ngFor="let number of numbers" [value]="number">{{ number }}</option>
-                </select>
-            </div>
-            <div class="formSection">
-                <label for="pluralDemographic">Your demographic: </label>
-                <select id="pluralDemographic" required [(ngModel)]="model.pluralDemographic" name="pluralDemographic">
-                    <option *ngFor="let pluralDemographic of pluralDemographics" [value]="pluralDemographic">{{
-                        pluralDemographic }}</option>
-                </select>
-            </div>
-            <div class="formSection">
-                <label for="location">Location: </label>
-                <input id="location" type="text" value="geographic area" [(ngModel)]="model.location" name="location">
-            </div>
-            
 
             <br>
 
             <div class="liveText">
-                Our 
+                <p>Our</p>
                 <div class="field">
                     <label for="orgType">
                         {{ model.orgType }}
                     </label>
                 </div>
-                , 
+                <p>,</p>
                 <div class="field">
                     <label for="orgName">
                         {{ model.orgName }}
                     </label>
                 </div>
-                has been
+                <p>has been</p>
                 <div class="field">
                     <label for="verb">
                         {{ model.verb }}
@@ -91,7 +98,7 @@
                         {{ model.date }}
                     </label>
                 </div>
-                . We 
+                . We
                 <div class="field">
                     <label for="verbTwo">
                         {{ model.verbTwo }}
@@ -102,13 +109,13 @@
                         {{ model.number }}
                     </label>
                 </div>
-                of 
+                of
                 <div class="field">
                     <label for="pluralDemographic">
                         {{ model.pluralDemographic }}
                     </label>
                 </div>
-                in 
+                in
                 <div class="field">
                     <label for="location">
                         {{ model.location }}
@@ -174,14 +181,18 @@
             <br> -->
 
             <label for="computerPurpose">Describe how the refurbished computers will be used in this request:</label>
-            <input id="computerPurpose" type="text" >
-            <p><i>ex. distance classroom learning for kindergarteners, literacy education and teaching computer skills, online job application submissions for program participants/residents, recreational use for children in our program, provided to low-income households of 6 people or more that don't have a computer.</i></p>
+            <input id="computerPurpose" type="text">
+            <p><i>ex. distance classroom learning for kindergarteners, literacy education and teaching computer skills,
+                    online job application submissions for program participants/residents, recreational use for children
+                    in our program, provided to low-income households of 6 people or more that don't have a
+                    computer.</i></p>
 
             <br>
-            <p><b>Section 4: </b>Do you provide services that specifically support any of these focus areas? (please select all that apply)</p>
+            <p><b>Section 4: </b>Do you provide services that specifically support any of these focus areas? (please
+                select all that apply)</p>
 
             <div id="checkboxes" *ngFor="let group of groups">
-                <input id="{{ group }}" type="checkbox" name="focusGroups"  value="{{ group }}" />
+                <input id="{{ group }}" type="checkbox" name="focusGroups" value="{{ group }}" />
                 <label for="{{ group }}">{{ group }}</label>
             </div>
 

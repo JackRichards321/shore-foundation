@@ -2,6 +2,21 @@
     text-decoration: none;
 }
 
+#triText {
+    position: absolute;
+    padding-top: 10px;
+    clip-path: polygon(0 0, calc(100% - 6vw) 0, 0 calc(100% - 2vw));
+    width: 640px;
+    height: 380px;
+    color: black;
+    background: none;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    align-items: baseline;
+}
+
 #triangle {
     position: absolute;
     padding-top: 10px;
@@ -13,7 +28,8 @@
     background-color: none;
     display: flex;
     flex-direction: column;
-
+    z-index: 6;
+    mix-blend-mode: soft-light;
 }
 
 #triangle::after {
@@ -23,28 +39,31 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #a6c0eb;
-    mix-blend-mode: multiply;
+    background-color: white;
     
+    z-index: 6;
 }
 
-#triangle>h1 {
+#triText > h1 {
     font-size: 36px;
     line-height: 40px;
-    padding-left: 20px;
+    padding-top: 15px;
+    padding-left: 30px;
     margin-top: 20px;
-    z-index: 31;
+    z-index: 40;
     letter-spacing: 2px;
     font-family: kim;
+
 }
 
-#triangle> a,h3 {
+#triText > a,h3 {
     font-family: aero;
     padding-left: 30px;
     line-height: 22px;
     z-index: 31;
     font-size: 16px;
     letter-spacing: 1.5px;
+
 }
 
 #triangle > h3 {
@@ -65,7 +84,7 @@
     align-items: center;
     gap: 10vw;
     position: relative;
-    z-index: -1;
+    z-index: 3;
 }
 
 #bannerDiv>img {
@@ -106,7 +125,7 @@
 #fallingLines {
     position: relative;
     top: -40px;
-    z-index: 0;
+    z-index: 1;
     width: 107.215px;
     height: 178.215px;
 }

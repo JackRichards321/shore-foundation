@@ -28,15 +28,26 @@
 
 .liveText {
     display: flex;
+    flex-direction: row;
     gap: 2.5px;
     font-size: 20px;
     width: 100%;
+    align-items: baseline;
+    border: 1px 0px solid gray;
+    flex-wrap: wrap;
+    justify-self: center;
+}
+
+.liveText > p {
+    flex-shrink: 0;
 }
 
 .field {
     background-color: lightgray;
     padding: 0px 2px;
     min-width: 30px;
+    height: 22px;
+    flex-shrink: 0;
 }
 
 .formSection {
@@ -44,7 +55,7 @@
     padding: 10px;
     margin: 0px 20px;
     border-bottom: 1px solid gray;
-    width: 50%;
+    width: 100%;
 }
 
 .formSection label {
@@ -54,7 +65,14 @@
 }
 
 #computerPurpose {
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 530px;
     margin-left: 15px;
+}
+
+#formSplit {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
 }
