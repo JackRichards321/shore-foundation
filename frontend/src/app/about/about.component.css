@@ -9,17 +9,16 @@
     background: linear-gradient(180deg, rgba(241,243,254,1) 0%, rgba(178,200,241,1) 77%);
 }
 
-#paragraph {
+.paragraph {
     width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid gray;
     text-align: center;
 }
 
-#paragraph p {
+.paragraph p {
     font-size: 24px;
 }
 
@@ -27,7 +26,7 @@
     font-size: 28px !important;
 }
 
-#paragraph h1 {
+.paragraph h1 {
     font-size: 40px;
     color: #0d2b5e;
 }
@@ -36,8 +35,60 @@
     height: 70px;
     width: 100%;
     background-image: url('/assets/lightbanner.jpg');
+    margin-bottom: 25px;
 }
 
-#aboutImage {
-    border: 3px solid #0d2b5e;
+#aboutGallery {
+    background-color: black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+}
+#graphicL {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+#graphicR {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#accentLeft {
+    transform: scaleX(-1);
+    width: 90px;
+}
+#accentRight {
+    width: 90px;
+}
+#accentLeftDown {
+    width: 90px;
+    height: 220.58px;
+    transform: scaleY(-1) scaleX(-1);
+    top: -50px;
+}
+#accentRightDown {
+    width: 90px;
+    height: 220.58px;
+    transform: scaleY(-1);
+}
+
+#links {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.link {
+    width: 280px;
+    height: 200px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
 }
