@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ConnectingComponent } from './connecting.component';
+import { ImpactComponent } from './impact.component';
 
-describe('ConnectingComponent', () => {
-  let component: ConnectingComponent;
-  let fixture: ComponentFixture<ConnectingComponent>;
+describe('ImpactComponent', () => {
+  let component: ImpactComponent;
+  let fixture: ComponentFixture<ImpactComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ConnectingComponent ]
+      declarations: [ ImpactComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ConnectingComponent);
+    fixture = TestBed.createComponent(ImpactComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

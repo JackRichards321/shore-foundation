@@ -1,0 +1,21 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="823px" height="345.5px">
+<path fill-rule="evenodd"  fill="rgb(165, 191, 234)"
+ d="M123.787,39.749 L699.964,39.749 C699.964,39.749 813.872,60.592 813.999,171.749 C814.127,282.906 726.973,303.749 726.973,303.749 L127.999,305.749 C127.999,305.749 0.446,283.453 3.750,171.749 C7.41,60.478 123.787,39.749 123.787,39.749 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="6px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
+ d="M132.999,43.749 C132.999,43.749 8.803,55.75 7.0,167.749 C5.44,289.940 130.0,301.750 130.0,301.750 "/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="6px" stroke-linecap="square" stroke-linejoin="round" fill="none"
+ d="M129.999,301.749 L691.999,301.749 L129.999,301.749 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="3px" stroke-linecap="round" stroke-linejoin="bevel" fill="rgb(0, 0, 0)"
+ d="M155.499,19.749 C167.373,19.749 176.999,29.375 176.999,41.249 C176.999,53.123 167.373,62.749 155.499,62.749 C143.625,62.749 133.999,53.123 133.999,41.249 C133.999,29.375 143.625,19.749 155.499,19.749 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="3px" stroke-linecap="round" stroke-linejoin="bevel" fill="rgb(0, 0, 0)"
+ d="M704.499,279.749 C716.373,279.749 725.999,289.375 725.999,301.249 C725.999,313.124 716.373,322.749 704.499,322.749 C692.625,322.749 682.999,313.124 682.999,301.249 C682.999,289.375 692.625,279.749 704.499,279.749 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="6px" stroke-linecap="round" stroke-linejoin="round" fill="none"
+ d="M175.999,42.749 C175.999,42.749 644.807,36.249 694.836,43.249 C720.851,46.249 812.261,63.646 813.906,178.249 C811.52,269.357 742.999,295.749 742.999,295.749 L721.999,298.749 "/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="3.5px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
+ d="M705.342,264.249 C685.172,264.249 668.821,280.591 668.821,300.749 C668.821,320.908 685.172,337.249 705.342,337.249 C725.513,337.249 741.864,320.908 741.864,300.749 C741.864,280.591 725.513,264.249 705.342,264.249 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="3.5px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
+ d="M156.23,5.249 C135.853,5.249 119.502,21.591 119.502,41.749 C119.502,61.908 135.853,78.249 156.23,78.249 C176.193,78.249 192.544,61.908 192.544,41.749 C192.544,21.591 176.193,5.249 156.23,5.249 Z"/>
+</svg>
