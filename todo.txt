@@ -1,0 +1,4 @@
+TO DO
+-Navbar styling
+-Homepage tweaks - I don't love IMPACT or the images, and there should be more below
+-
