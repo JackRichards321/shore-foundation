@@ -74,9 +74,7 @@
     mix-blend-mode: soft-light;
 }
 
-#bannerDiv {
-    background-image: url("/assets/lightbanner.jpg");
-
+#bannerTop {
     height: 160px;
     width: 100%;
     display: flex;
@@ -87,13 +85,77 @@
     z-index: 3;
 }
 
-#bannerDiv>img {
+#bannerBottom {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 9vw;
+}
+
+#bannerDiv {
+    background-image: url("/assets/lightbanner.jpg");
+    height: 240px;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+#bannerLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#bannerLeft > h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-family: kim;
+    text-align: right;
+}
+
+.bannerText {
+    width: 165px;
+    height: 32px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerText > h3 {
+    font-family: kim;
+    font-size: 20px;
+    position: relative;
+    left: -15px;
+    color: #030f20;
+}
+
+.bannerText::after {
+    content: '';
+
+    width: 165px;
+    height: 32px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(220, 220, 220, .9);
+    mix-blend-mode: hard-light; 
+}
+
+
+#bannerTop>img {
     width: 6em;
     margin-right: 40px;
 }
 
 #impactDiv {
-    height: 900px;
+    height: 1300px;
     width: 100%;
     background: rgb(241,243,254);
     background: linear-gradient(180deg, rgba(241,243,254,1) 0%, rgba(178,200,241,1) 77%);
@@ -272,5 +334,28 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+#missionDiv {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
 
+#missionStatement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
 
+}
+
+#missionText {
+    text-align: center;
+    width: 30%;
+}
+#missionText > h1 {
+    font-size: 40px;
+}
+
+#singleDown {
+    width: 18px;
+}

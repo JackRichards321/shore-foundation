@@ -48,35 +48,7 @@
     width: 100%;
     display: flex;
 }
-#graphicL {
-    width: 20%;
-    display: flex;
-    justify-content: flex-end;
-}
-#graphicR {
-    width: 20%;
-    display: flex;
-    justify-content: flex-start;
-}
 
-#accentLeft {
-    transform: scaleX(-1);
-    width: 90px;
-}
-#accentRight {
-    width: 90px;
-}
-#accentLeftDown {
-    width: 90px;
-    height: 220.58px;
-    transform: scaleY(-1) scaleX(-1);
-    top: -50px;
-}
-#accentRightDown {
-    width: 90px;
-    height: 220.58px;
-    transform: scaleY(-1);
-}
 
 #links {
     width: 80%;

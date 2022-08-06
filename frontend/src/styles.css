@@ -24,3 +24,32 @@ body {
     margin: 0px !important;
     padding: 0 !important;
 }
+
+#accentLeft {
+    transform: scaleX(-1);
+    width: 90px;
+}
+#accentRight {
+    width: 90px;
+}
+#accentLeftDown {
+    width: 90px;
+    height: 220.58px;
+    transform: scaleY(-1) scaleX(-1);
+    top: -50px;
+}
+#accentRightDown {
+    width: 90px;
+    height: 220.58px;
+    transform: scaleY(-1);
+}
+#graphicL {
+    width: 20%;
+    display: flex;
+
+}
+#graphicR {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+}
