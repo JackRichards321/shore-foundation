@@ -1,4 +1,12 @@
 TO DO
 -Navbar styling
 -Homepage tweaks - I don't love IMPACT or the images, and there should be more below
--
+easiest to worst:
+-FAQ
+-Donate
+-Team
+-Support
+-Impact
+-techrequest
+-Contact
+-volunteer

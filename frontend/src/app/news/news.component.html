@@ -1,1 +1,22 @@
-<p>news works!</p>
+<div id="fullPage">
+    <div id="left">
+        <h1>News</h1>
+        <div id="posts">
+            <div class="postDiv" *ngFor="let post of posts" (click)="updateCurrent(post)">
+                <div id="postLeft">
+                    <h2>{{ post.title }}</h2>
+                    <h3>{{ post.subtitle }}</h3>
+                    <p>{{ post.content }}</p>
+                </div>
+                <div class="arrow">-></div>
+            </div>
+        </div>
+    </div>
+    <div id="right">
+
+        <h2>{{ currentPost.title }}</h2>
+        <h3>{{ currentPost.subtitle }}</h3>
+        <p>{{ currentPost.content }}</p>
+        <img *ngFor="let image of currentPost.images" src="{{ currentPost.images[0] }}" alt="" />
+    </div>
+</div>
