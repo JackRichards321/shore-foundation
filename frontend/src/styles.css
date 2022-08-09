@@ -46,7 +46,7 @@ body {
 #graphicL {
     width: 20%;
     display: flex;
-
+    justify-content: flex-end;
 }
 #graphicR {
     width: 20%;

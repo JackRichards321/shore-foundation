@@ -31,7 +31,7 @@ p {
     flex-direction: row;
     align-items: baseline;
     gap: 30px;
-    border-top: 3px solid black;
+
     width: 80%;
     padding-top: 30px;
 }
