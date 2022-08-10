@@ -1,0 +1,19 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="4450.667px" height="397.667px">
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="20px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
+ d="M215.500,112.500 L2115.500,112.500 L215.500,112.500 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="20px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
+ d="M2328.833,272.500 L4228.833,272.500 L2328.833,272.500 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="20px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
+ d="M2107.859,110.879 L2334.463,275.349 L2107.859,110.879 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="11.667px" stroke-linecap="square" stroke-linejoin="miter" fill="none"
+ d="M112.166,12.500 C167.394,12.500 212.166,57.271 212.166,112.500 C212.166,167.728 167.394,212.499 112.166,212.499 C56.938,212.499 12.166,167.728 12.166,112.500 C12.166,57.271 56.938,12.500 112.166,12.500 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="11.667px" stroke-linecap="square" stroke-linejoin="miter" fill="none"
+ d="M4328.833,175.832 C4384.61,175.832 4428.833,220.604 4428.833,275.832 C4428.833,331.61 4384.61,375.832 4328.833,375.832 C4273.604,375.832 4228.832,331.61 4228.832,275.832 C4228.832,220.604 4273.604,175.832 4328.833,175.832 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="11.667px" stroke-linecap="round" stroke-linejoin="bevel" fill="rgb(0, 0, 0)"
+ d="M4328.833,229.166 C4354.606,229.166 4375.499,250.59 4375.499,275.832 C4375.499,301.606 4354.606,322.499 4328.833,322.499 C4303.59,322.499 4282.166,301.606 4282.166,275.832 C4282.166,250.59 4303.59,229.166 4328.833,229.166 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="11.667px" stroke-linecap="square" stroke-linejoin="miter" fill="rgb(0, 0, 0)"
+ d="M112.166,65.832 C137.939,65.832 158.832,86.726 158.832,112.499 C158.832,138.272 137.939,159.166 112.166,159.166 C86.393,159.166 65.499,138.272 65.499,112.499 C65.499,86.726 86.393,65.832 112.166,65.832 Z"/>
+</svg>

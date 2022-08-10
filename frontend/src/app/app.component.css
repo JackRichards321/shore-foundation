@@ -58,16 +58,16 @@ li > a {
     color: black;
 }
 
-#navList > li:hover {
+#navList > li:hover > a {
     background-color: white;
-    border-radius: 35px;
-    box-shadow: 5px 5px #ddd inset
+    color: lightblue;
 }
 
 .subMenu {
     display: none;
     position: absolute;
     z-index: 8;
+    padding-left: 5px;
 }
 
 li:hover > .subMenu {

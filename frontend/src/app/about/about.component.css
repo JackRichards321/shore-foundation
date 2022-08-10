@@ -31,12 +31,7 @@
     color: #0d2b5e;
 }
 
-#banner {
-    height: 70px;
-    width: 100%;
-    background-image: url('/assets/lightbanner.jpg');
-    margin-bottom: 25px;
-}
+
 
 #aboutGallery {
     background-color: black;

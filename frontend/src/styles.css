@@ -53,3 +53,11 @@ body {
     display: flex;
     justify-content: flex-start;
 }
+
+#banner {
+    height: 70px;
+    width: 100%;
+    background-image: url('/assets/lightbanner.jpg');
+    background-position: 50%;
+    margin-bottom: 25px;
+}
