@@ -73,6 +73,11 @@
     mix-blend-mode: soft-light;
 }
 
+
+#homeIcon {
+    width: 7vw;
+}
+
 #bannerTop {
     height: 160px;
     width: 100%;
@@ -93,14 +98,14 @@
 
 #bannerDiv {
     background-image: url("/assets/lightbanner.jpg");
-    background-position: 50%;
+    background-position: 48%;
     height: 160px;
     width: 100%;
     position: relative;
     z-index: 3;
     display: flex;
-    justify-content: flex-end;
-    align-items: baseline;
+    justify-content: center;
+    align-items: center;
 }
 
 #bannerLeft {
@@ -365,7 +370,7 @@
 
 .pushUpLess {
     position: relative;
-    top: -60px;
+    top: -40px;
 }
 
 #missionText {
