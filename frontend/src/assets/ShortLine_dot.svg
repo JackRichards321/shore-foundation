@@ -1,0 +1,15 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="2112.667px" height="239.667px">
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="11.667px" stroke-linecap="square" stroke-linejoin="miter" fill="none"
+ d="M112.499,17.833 C167.728,17.833 212.499,62.604 212.499,117.833 C212.499,173.61 167.728,217.832 112.499,217.832 C57.271,217.832 12.499,173.61 12.499,117.833 C12.499,62.604 57.271,17.833 112.499,17.833 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="11.667px" stroke-linecap="square" stroke-linejoin="miter" fill="rgb(0, 0, 0)"
+ d="M112.499,71.166 C138.273,71.166 159.166,92.59 159.166,117.833 C159.166,143.606 138.273,164.499 112.499,164.499 C86.726,164.499 65.833,143.606 65.833,117.833 C65.833,92.59 86.726,71.166 112.499,71.166 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="11.667px" stroke-linecap="round" stroke-linejoin="bevel" fill="none"
+ d="M1990.499,11.833 C2045.728,11.833 2090.499,56.604 2090.499,111.833 C2090.499,167.61 2045.728,211.833 1990.499,211.833 C1935.271,211.833 1890.499,167.61 1890.499,111.833 C1890.499,56.604 1935.271,11.833 1990.499,11.833 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="11.667px" stroke-linecap="round" stroke-linejoin="bevel" fill="rgb(0, 0, 0)"
+ d="M1990.499,65.166 C2016.273,65.166 2037.166,86.59 2037.166,111.833 C2037.166,137.606 2016.273,158.499 1990.499,158.499 C1964.726,158.499 1943.833,137.606 1943.833,111.833 C1943.833,86.59 1964.726,65.166 1990.499,65.166 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="20px" stroke-linecap="square" stroke-linejoin="miter" fill="none"
+ d="M217.166,115.166 L1883.833,115.166 L217.166,115.166 Z"/>
+</svg>
