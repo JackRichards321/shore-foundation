@@ -1,9 +1,9 @@
 TO DO
 -backend data hookup
 -connect with oracle netsuite
+-MOBILE
 
 easiest to worst:
--Support
 -Impact
 -techrequest
 -Contact
