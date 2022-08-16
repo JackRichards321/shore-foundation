@@ -24,7 +24,7 @@
     width: calc(50vw + 150px);
     display: grid;
     padding-top: 50px;
-    grid-template-columns: 25vw 150px 25vw;
+    grid-template-columns: 25vw 100px 25vw;
     grid-template-rows: 25vw 50px 25vw 50px 25vw 50px 25vw 50px 25vw;
 }
 .teammate {
@@ -34,7 +34,7 @@
 }
 
 .pic {
-    width: 20vw;
+    width: 16vw;
     height: 20vw;
     object-fit: cover;
     position: relative;
@@ -93,5 +93,5 @@
     z-index: 8;
     white-space: nowrap;
     top: 50px;
-    left: -50px;
+    left: -30px;
 }

@@ -27,31 +27,31 @@ body {
 
 #accentLeft {
     transform: scaleX(-1);
-    width: 90px;
+    width: 50px;
 }
 #accentRight {
-    width: 90px;
+    width: 20px;
 }
 #accentLeftDown {
-    width: 90px;
-    height: 220.58px;
+    display: none;
+    width: 20px;
     transform: scaleY(-1) scaleX(-1);
     top: -50px;
 }
 #accentRightDown {
-    width: 90px;
-    height: 220.58px;
+    display: none;
+    width: 20px;
     transform: scaleY(-1);
 }
 #graphicL {
-    width: 20%;
+
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 #graphicR {
-    width: 20%;
+
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 #banner {
@@ -66,7 +66,7 @@ body {
 }
 
 .icon {
-    width: 55px;
+    width: 100px;
 }
 
 .buttonStyle {
@@ -82,4 +82,39 @@ body {
 .buttonStyle:hover {
     cursor:pointer;
     background-color: rgb(173, 201, 247);
+}
+
+@media (min-width: 900px) {
+    .icon {
+        width: 55px;
+    }
+    #accentLeft {
+        transform: scaleX(-1);
+        width: 90px;
+    }
+    #accentRight {
+        width: 90px;
+    }
+    #accentLeftDown {
+        display: block;
+        width: 90px;
+        height: 220.58px;
+        transform: scaleY(-1) scaleX(-1);
+    }
+    #accentRightDown {
+        display: block;
+        width: 90px;
+        height: 220.58px;
+        transform: scaleY(-1);
+    }
+    #graphicL {
+        width: 20%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    #graphicR {
+        width: 20%;
+        display: flex;
+        justify-content: flex-start;
+    }
 }

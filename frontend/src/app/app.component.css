@@ -22,25 +22,27 @@ router-outlet {
 
 #navbar {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 75px;
     background-color: white;
-    padding: 10px 0px;
     z-index: 100;
     letter-spacing: 1px;
+    line-height: 10px;
 }
 
 #left > h2 {
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 2px;
     font-family: kim;
+    line-height: 30px;
 }
 
 #navList {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-right: 30px;
     font-family: Aero;
 }
@@ -50,7 +52,7 @@ router-outlet {
 }
 
 #navList > li > a {
-    font-size: 3vh;
+    font-size: 4vh;
 }
 
 li > a {
@@ -132,4 +134,20 @@ ul {
 }
 .socialIcon {
     width: 36px;
+}
+
+@media (min-width: 900px) {
+    #navbar {
+        flex-direction: row;
+        padding: 10px 0px;
+        line-height: 20px;
+    }
+
+    #navList > li > a {
+        font-size: 3vh;
+    }
+
+    #left > h2 {
+        font-size: 40px;
+    }
 }

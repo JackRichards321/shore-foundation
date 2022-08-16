@@ -2,71 +2,18 @@
     text-decoration: none;
 }
 
+#home {
+    width: 100%;
+}
+
 #triText {
     position: absolute;
-    padding-top: 10px;
-    clip-path: polygon(0 0, calc(100% - 6vw) 0, 0 calc(100% - 2vw));
-    width: 47%;
-    height: 67vh;
-    color: black;
-    background: none;
-    background-color: none;
-    display: flex;
-    flex-direction: column;
     z-index: 10;
-    align-items: baseline;
 }
 
-#triangle {
-    position: absolute;
-    padding-top: 10px;
-    clip-path: polygon(0 0, calc(100% - 6vw) 0, 0 calc(100% - 2vw));
-    width: 47%;
-    height: 67vh;
-    color: black;
-    background: none;
-    background-color: none;
-    display: flex;
-    flex-direction: column;
-    z-index: 6;
-    mix-blend-mode: soft-light;
-}
-
-#triangle::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: white;
-    
-    z-index: 6;
-}
-
-#triText > h1 {
-    font-size: 36px;
-    line-height: 40px;
-    padding-top: 15px;
-    padding-left: 30px;
-    margin-top: 20px;
-    z-index: 40;
-    letter-spacing: 2px;
-    font-family: kim;
-
-}
-
-#triText > a,h3 {
-    font-family: aero;
-    padding-left: 30px;
-    line-height: 1.75vw;
-    z-index: 31;
-    font-size: 1.5vw;
-    letter-spacing: .15vw;
-}
-
-#triangle > h3 {
-    padding-top: 20px;
+#triText>a,
+h3 {
+    display: none;
 }
 
 .multiply {
@@ -75,10 +22,10 @@
 
 
 #homeIcon {
-    width: 7vw;
+    width: 20vw;
 }
 
-#bannerTop {
+/* #bannerTop {
     height: 160px;
     width: 100%;
     display: flex;
@@ -94,7 +41,7 @@
     align-items: center;
     justify-content: flex-end;
     gap: 9vw;
-}
+} */
 
 #bannerDiv {
     background-image: url("/assets/lightbanner.jpg");
@@ -115,7 +62,7 @@
     padding-right: 20px;
 }
 
-#bannerLeft > h1 {
+#bannerLeft>h1 {
     font-size: 40px;
     margin-bottom: 0px;
     font-family: kim;
@@ -132,7 +79,7 @@
     align-items: center;
 }
 
-.bannerText > h3 {
+.bannerText>h3 {
     font-family: kim;
     font-size: 20px;
     position: relative;
@@ -150,7 +97,7 @@
     right: 0;
     bottom: 0;
     background-color: rgba(220, 220, 220, .9);
-    mix-blend-mode: hard-light; 
+    mix-blend-mode: hard-light;
 }
 
 
@@ -162,14 +109,14 @@
 #impactDiv {
     height: 1300px;
     width: 100%;
-    background: rgb(241,243,254);
-    background: linear-gradient(180deg, rgba(241,243,254,1) 0%, rgba(178,200,241,1) 77%);
+    background: rgb(241, 243, 254);
+    background: linear-gradient(180deg, rgba(241, 243, 254, 1) 0%, rgba(178, 200, 241, 1) 77%);
     display: flex;
     flex-direction: column;
     align-items: center;
     letter-spacing: 2px;
 
-    color: linear-gradient(0deg, rgba(114,136,185,1) 0%, rgba(134,165,215,1) 12%, rgba(255,255,255,1) 50%, rgba(134,165,215,1) 87%, rgba(114,136,185,1) 100%);
+    color: linear-gradient(0deg, rgba(114, 136, 185, 1) 0%, rgba(134, 165, 215, 1) 12%, rgba(255, 255, 255, 1) 50%, rgba(134, 165, 215, 1) 87%, rgba(114, 136, 185, 1) 100%);
 }
 
 #impactRow {
@@ -184,7 +131,7 @@
 }
 
 #lines {
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: center;
     margin-left: 12%;
@@ -242,6 +189,7 @@
     margin-bottom: 0px;
     color: #0d2b5e;
 }
+
 #caption {
     font-family: Aero;
     font-size: 10px;
@@ -280,7 +228,7 @@
 .overflow {
     width: 24vw;
     height: 15vw;
-    display: inline-block; 
+    display: inline-block;
     overflow: hidden;
 }
 
@@ -291,7 +239,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .imageText {
@@ -305,7 +253,7 @@
     align-items: center;
 }
 
-.imageText > h3 {
+.imageText>h3 {
     font-family: kim;
     font-size: 20px;
     position: relative;
@@ -321,7 +269,7 @@
     right: 0;
     bottom: 0;
     background-color: rgba(220, 220, 220, .9);
-    mix-blend-mode: hard-light; 
+    mix-blend-mode: hard-light;
 }
 
 #left {
@@ -341,6 +289,7 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 #missionDiv {
     display: flex;
     flex-direction: column;
@@ -352,8 +301,8 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 53vw;
-    height: 230px;
+
+    
     padding: 20px 0 30px 0;
 }
 
@@ -376,12 +325,134 @@
 #missionText {
     text-align: center;
     width: 80%;
-
 }
-#missionText > h1 {
-    font-size: 40px;
+
+#missionText>h1 {
+    font-size: 28px;
 }
 
 #singleDown {
     width: 18px;
+}
+#mobileAccentL {
+    display: block;
+    width: 30px;
+}
+
+#mobileAccentR {
+    display: block;
+    width: 30px;
+}
+
+@media (min-width: 1000px) {
+    #triText {
+        position: absolute;
+        padding-top: 10px;
+        clip-path: polygon(0 0, calc(100% - 6vw) 0, 0 calc(100% - 2vw));
+        width: 47%;
+        height: 67vh;
+        color: black;
+        background: none;
+        background-color: none;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+        align-items: baseline;
+    }
+
+    #triangle {
+        position: absolute;
+        padding-top: 10px;
+        clip-path: polygon(0 0, calc(100% - 6vw) 0, 0 calc(100% - 2vw));
+        width: 47%;
+        height: 67vh;
+        color: black;
+        background: none;
+        background-color: none;
+        display: flex;
+        flex-direction: column;
+        z-index: 6;
+        mix-blend-mode: soft-light;
+    }
+
+    #triangle::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: white;
+
+        z-index: 6;
+    }
+
+    #triText>h1 {
+        font-size: 36px;
+        line-height: 40px;
+        padding-top: 15px;
+        padding-left: 30px;
+        margin-top: 20px;
+        z-index: 40;
+        letter-spacing: 2px;
+        font-family: kim;
+
+    }
+
+    #triText>a,
+    h3 {
+        font-family: aero;
+        padding-left: 30px;
+        line-height: 1.75vw;
+        z-index: 31;
+        font-size: 1.5vw;
+        letter-spacing: .15vw;
+        display: block;
+    }
+
+    #triangle>h3 {
+        padding-top: 20px;
+    }
+
+
+    #homeIcon {
+        width: 7vw;
+    }
+
+    #lines {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 12%;
+        transform: scaleX(-1);
+    }
+    
+    #fallingLines {
+        position: relative;
+        top: -40px;
+        z-index: 1;
+        width: 107.215px;
+        height: 178.215px;
+    }
+
+    #missionStatement {
+        height: 230px;
+        width: 53vw;
+    }
+
+    #missionText {
+        width: 80%;
+    }
+    
+    #missionText>h1 {
+        font-size: 40px;
+    }
+
+    #mobileAccentL {
+        display: none;
+    }
+    
+    #mobileAccentR {
+        display: none;
+    }
 }
