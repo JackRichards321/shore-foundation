@@ -14,6 +14,11 @@
     background-repeat: repeat;
 }
 
+#center {
+    align-self: center;
+    width: 100px !important;
+}
+
 #title {
     padding-left: 7.5%;
 }

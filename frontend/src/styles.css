@@ -84,6 +84,13 @@ body {
     background-color: rgb(173, 201, 247);
 }
 
+input[type=text] {
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 0px;
+    margin-top: 5px;
+}
+
 @media (min-width: 900px) {
     .icon {
         width: 55px;

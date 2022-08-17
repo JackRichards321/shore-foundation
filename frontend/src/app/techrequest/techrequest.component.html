@@ -179,21 +179,68 @@
                 </div>
             </div>
             <br> -->
-
-            <label for="computerPurpose">Describe how the refurbished computers will be used in this request:</label>
-            <input id="computerPurpose" type="text">
+            <div id="howComputers">
+                <label for="computerPurpose">Describe how the refurbished computers will be used in this
+                    request:</label>
+                <textarea id="computerPurpose"></textarea>
+            </div>
             <p><i>ex. distance classroom learning for kindergarteners, literacy education and teaching computer skills,
                     online job application submissions for program participants/residents, recreational use for children
                     in our program, provided to low-income households of 6 people or more that don't have a
                     computer.</i></p>
 
             <br>
-            <p><b>Section 4: </b>Do you provide services that specifically support any of these focus areas? (please
-                select all that apply)</p>
+            <div id="columns">
+                <div id="sec2Left">
+                    <p><b>Section 2: </b>Do you provide services that specifically support any of these focus areas?
+                        (please
+                        select all that apply)</p>
 
-            <div id="checkboxes" *ngFor="let group of groups">
-                <input id="{{ group }}" type="checkbox" name="focusGroups" value="{{ group }}" />
-                <label for="{{ group }}">{{ group }}</label>
+                    <div id="checkboxes" *ngFor="let group of groups">
+                        <input id="{{ group }}" type="checkbox" name="focusGroups" value="{{ group }}" />
+                        <label for="{{ group }}">{{ group }}</label>
+                    </div>
+                </div>
+                <div id="sec2Right">
+                    <p>What are the types of programs you provide:
+                        (please
+                        select all that apply)</p>
+
+                    <div id="checkboxes" *ngFor="let skill of skills">
+                        <input id="{{ skill }}" type="checkbox" name="skills" value="{{ skill }}" />
+                        <label for="{{ skill }}">{{ skill }}</label>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <p><b>Section 3: </b>Are you a church, school, or non-profit? (please select all that apply)</p>
+                <div id="checkboxes">
+                    <input id="church" type="checkbox" name="orgType2">
+
+                    <label for="church">Church</label>
+                </div>
+                <div id="checkboxes">
+                    <input id="school" type="checkbox" name="orgType2">
+                    <label for="school">School</label>
+                </div>
+                <div id="checkboxes">
+                    <input id="np" type="checkbox" name="orgType2">
+                    <label for="np">Non-Profit</label>
+                </div>
+                <br>
+                <div>
+                    <label for="ein" id="ein">Please enter your Organization EIN (employer identification number):</label>
+                    <input type="text" />
+                    <br>
+                    <p>(In follow-up steps, we need a copy of your IRS letter of determination and non-profit status)</p>
+                </div>
+
+                <div>
+                    <p><b>Section 4: Equipment</b></p>
+                    <p>Requested technology: </p>
+                    
+                </div>
             </div>
 
             <button id="submit" type="submit" [disabled]="!techForm.form.valid">Submit</button>

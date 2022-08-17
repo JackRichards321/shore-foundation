@@ -11,6 +11,11 @@
     z-index: 10;
 }
 
+#triText > h1 {
+    padding-left: 15px;
+    font-size: 24px;
+}
+
 #triText>a,
 h3 {
     display: none;
@@ -45,8 +50,8 @@ h3 {
 
 #bannerDiv {
     background-image: url("/assets/lightbanner.jpg");
-    background-position: 48%;
-    height: 160px;
+    background-position: 49.5%;
+    height: 120px;
     width: 100%;
     position: relative;
     z-index: 3;
@@ -211,13 +216,16 @@ h3 {
 #threeImages {
     width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
 }
 
 .image {
-    width: 24vw;
-    height: 15vw;
+    width: 70vw;
+    height: 44vw;
     transition: 0.3s all ease-in-out;
+    z-index: 10;
 }
 
 .image:hover {
@@ -225,40 +233,49 @@ h3 {
     background-color: rgba(255, 255, 255, .7);
 }
 
+.imageText:hover ~ .image {
+    transform: scale(1.3);
+}
+
 .overflow {
-    width: 24vw;
-    height: 15vw;
+    width: 71vw;
+    height: 44vw;
     display: inline-block;
     overflow: hidden;
 }
 
 
 .container {
-    width: 26vw;
-    height: 16.75vw;
+    width: 80vw;
+    height: 50vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 
 }
 
 .imageText {
-    width: 165px;
-    height: 32px;
+    width: 40vw;
+    height: 8vw;
+    margin: 17vw 0 0 16vw;
     position: absolute;
     border: 2px solid white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    z-index: 11;
+    
 }
 
 .imageText>h3 {
     font-family: kim;
-    font-size: 20px;
+    font-size: 1.75vw;
     position: relative;
-    left: -15px;
+    margin-left: -25px;
     color: #030f20;
+    z-index: 12;
 }
 
 .imageText::after {
@@ -268,7 +285,7 @@ h3 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(220, 220, 220, .9);
+    background-color: rgba(220, 220, 220, .8);
     mix-blend-mode: hard-light;
 }
 
@@ -309,7 +326,7 @@ h3 {
 #graphicL {
     display: flex;
     justify-content: flex-start !important;
-    width: 90px !important;
+    
 }
 
 .pushUp {
@@ -347,7 +364,7 @@ h3 {
 @media (min-width: 1000px) {
     #triText {
         position: absolute;
-        padding-top: 10px;
+        padding-top: 0px;
         clip-path: polygon(0 0, calc(100% - 6vw) 0, 0 calc(100% - 2vw));
         width: 47%;
         height: 67vh;
@@ -390,7 +407,7 @@ h3 {
     #triText>h1 {
         font-size: 36px;
         line-height: 40px;
-        padding-top: 15px;
+        padding-top: 0px;
         padding-left: 30px;
         margin-top: 20px;
         z-index: 40;
@@ -454,5 +471,35 @@ h3 {
     
     #mobileAccentR {
         display: none;
+    }
+
+    #graphicL {
+        width: 90px !important;
+    }
+
+    #threeImages {
+        flex-direction: row;
+    }
+
+    .container {
+        width: 26vw;
+        height: 16.75vw;
+    }
+
+    .image {
+        width: 24vw;
+        height: 15vw;
+    }
+
+    .overflow {
+        width: 24vw;
+        height: 15vw;
+    }
+
+    .imageText {
+        width: 13vw;
+        height: 3vw;
+        margin-left: 5.5vw;
+        margin-top: 6vw;
     }
 }

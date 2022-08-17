@@ -66,8 +66,9 @@
 
 #computerPurpose {
     width: 400px;
-    height: 530px;
+    height: 80px;
     margin-left: 15px;
+    resize: vertical;
 }
 
 #formSplit {
@@ -75,4 +76,32 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
+}
+
+#howComputers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+input[type=text] {
+    margin-top: 0px !important;
+}
+
+#columns {
+    display: flex;
+    flex-direction: row;
+}
+
+#sec2Left {
+    width: 50%;
+}
+
+#sec2Right {
+    width: 50%;
+}
+
+#ein {
+    padding-right: 10px;
 }
