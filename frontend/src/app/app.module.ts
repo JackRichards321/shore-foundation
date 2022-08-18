@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { GalleryModule } from 'ng-gallery';
 import { LightboxModule } from 'ng-gallery/lightbox';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -51,6 +52,7 @@ import { ImpactComponent } from './impact/impact.component';
       // thumbView: 'contain',
     }),
     LightboxModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

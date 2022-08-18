@@ -13,7 +13,7 @@
                 <div id="formLeft">
                     <div class="formSection">
                         <label for="orgType">Organization Type: </label>
-                        <select id="orgType" required [(ngModel)]="model.orgType" name="orgType">
+                        <select id="orgType" required [(ngModel)]="orgType" name="orgType">
                             <option *ngFor="let type of orgTypes" [value]="type">{{ type }}</option>
                         </select>
                     </div>

@@ -1,13 +1,24 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const dbconnect = require('./dbconnect');
 
 const mongoose = require('./database/mongoose');
 
 const List = require('./database/models/list');
 const Task = require('./database/models/task');
+const TechReq = require('./database/models/techrequest');
+
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
+
+dbconnect.connectToServer(function(err) {
+    if(err) {
+        console.error(err);
+        process.exit();
+    }
+})
 
 /**
  * CORS - Cross Origin Request Security
@@ -20,7 +31,7 @@ app.use((req, res, next) => {
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });
-app.use(express.static(path.join(__dirname, 'frontend/src')));
+app.use(express.static(path.join(__dirname, 'frontend/dist')));
 
 /**
  * List: Create, Update, ReadOne, ReadAll, Delete
@@ -31,6 +42,14 @@ app.use(express.static(path.join(__dirname, 'frontend/src')));
  * PUT PATCH -> update
  * DELETE -> delete
  */
+app.post('/newReq', (req, res) => {
+    (new TechReq({ 'orgType': req.body.orgType }))
+        .save()
+        .then(techrequests => res.send(techrequests))
+        .then(console.log("techrequest sent"))
+        .catch((error) => console.log(error));
+});
+
 app.get('/lists', (req, res) => {
     List.find({})
         .then(lists => res.send(lists))
@@ -60,6 +79,10 @@ app.delete('/lists/:listId', (req, res) => {
     List.findByIdAndDelete(req.params.listId)
         .then((list) => res.send(list))
         .catch((error) => console.log(error));
-})
+});
 
-app.listen(3000, () => console.log("server listening on port 3000"));
+app.get("*", function(req, res) {
+    res.sendFile(path.join(dirname, "../frontend/src/", "index.html"));
+});
+
+app.listen(port, () => console.log("server listening on port " + port));

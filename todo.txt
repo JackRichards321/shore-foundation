@@ -5,6 +5,20 @@ TO DO
 easiest to worst:
 -Impact
 -techrequest
--Contact
+-contact backend
 -volunteer
 
+Mobile:
+-Home
+-about
+-impact
+-team 
+-support 
+-power
+-cpu
+-inkind
+-volunteer 
+-news 
+-contact 
+-faq 
+-donate
